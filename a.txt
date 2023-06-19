@@ -1,0 +1,2 @@
+postgres://shoestore_6fyv_user:8JtZaVxxb3GoQUDm9ajbQWBjLU5b6Bvy@dpg-cgu0n5qut4mcfrg492ig-a.singapore-postgres.render.com/shoestore_6fyv
+dpg-cgu0n5qut4mcfrg492ig-a.singapore-postgres.render.com
