@@ -66,6 +66,12 @@
     },
     "video": {
       "type": "string"
+    },
+    "productdetail": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::productdetail.productdetail",
+      "mappedBy": "product"
     }
   }
 }

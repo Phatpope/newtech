@@ -1,0 +1,94 @@
+{
+  "kind": "collectionType",
+  "collectionName": "productdetails",
+  "info": {
+    "singularName": "productdetail",
+    "pluralName": "productdetails",
+    "displayName": "productdetail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "kichthuoc": {
+      "type": "string"
+    },
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product",
+      "inversedBy": "productdetail"
+    },
+    "dophangiai": {
+      "type": "string"
+    },
+    "congnghemanhinh": {
+      "type": "string"
+    },
+    "tansoquet": {
+      "type": "string"
+    },
+    "congnghecpu": {
+      "type": "string"
+    },
+    "sonhan": {
+      "type": "string"
+    },
+    "soluong": {
+      "type": "string"
+    },
+    "tocdocpu": {
+      "type": "string"
+    },
+    "bonhodem": {
+      "type": "string"
+    },
+    "dohoa": {
+      "type": "string"
+    },
+    "ram": {
+      "type": "string"
+    },
+    "hotrotoida": {
+      "type": "string"
+    },
+    "ocung": {
+      "type": "string"
+    },
+    "amthanh": {
+      "type": "string"
+    },
+    "congketnoi": {
+      "type": "string"
+    },
+    "ketnoikhongday": {
+      "type": "string"
+    },
+    "hedocthenho": {
+      "type": "string"
+    },
+    "hotrowebcam": {
+      "type": "string"
+    },
+    "khoiluong": {
+      "type": "string"
+    },
+    "chatlieu": {
+      "type": "string"
+    },
+    "pin": {
+      "type": "string"
+    },
+    "kichthuocpin": {
+      "type": "string"
+    },
+    "congnghepin": {
+      "type": "string"
+    },
+    "namramat": {
+      "type": "string"
+    }
+  }
+}
