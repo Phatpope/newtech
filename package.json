@@ -18,6 +18,7 @@
     "@strapi/strapi": "4.9.2",
     "pg": "8.8.0",
     "pg-connection-string": "^2.6.1",
+    "strapi-provider-upload-do": "^3.6.9",
     "strapi-stripe": "^3.3.0",
     "twilio": "^4.11.0"
   },
